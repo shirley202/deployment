@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'python_heroku_task.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'python_heroku_task',
-        'USER': 'sample_user',
-        'PASSWORD': 'password',
+        'NAME': 'dproject',
+        'USER': 'pccafe',
+        'PASSWORD': '123456',
         'HOST': 'localhost',
         'PORT': '5432',
     }
